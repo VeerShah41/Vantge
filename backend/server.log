@@ -1,0 +1,617 @@
+INFO:     Will watch for changes in these directories: ['/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend']
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     Started reloader process [9355] using StatReload
+INFO:     Started server process [9418]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:51755 - "GET /api/transactions/?limit=2&page=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51757 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51759 - "GET /api/analytics/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51761 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51763 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51765 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51819 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51821 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51823 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51817 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51819 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51821 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51825 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51823 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51823 - "OPTIONS /api/transactions/all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51825 - "DELETE /api/transactions/all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51825 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51823 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51828 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51830 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51825 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51823 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51832 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51828 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51828 - "GET /api/transactions HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51828 - "GET /api/transactions HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51832 - "GET /api/transactions/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51832 - "GET /api/transactions/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51832 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51828 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51823 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51825 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51832 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51830 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51834 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51828 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51837 - "POST /api/upload/csv HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51837 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51840 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51842 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51843 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51837 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51842 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51840 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51845 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51845 - "GET /api/transactions?type=&search= HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51845 - "GET /api/transactions?type=&search= HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51840 - "GET /api/transactions/?type=&search= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51840 - "GET /api/transactions/?type=&search= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51840 - "GET /api/transactions HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51840 - "GET /api/transactions HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51840 - "GET /api/transactions/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51840 - "GET /api/transactions/ HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51840 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51845 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51840 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51842 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51842 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51842 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51840 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51842 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51842 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51840 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51840 - "GET /api/transactions?type=&search= HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51840 - "GET /api/transactions?type=&search= HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51842 - "GET /api/transactions/?type=&search= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51842 - "GET /api/transactions/?type=&search= HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51840 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51842 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51845 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51847 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51849 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51840 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51842 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51845 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51856 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51858 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51856 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51858 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51857 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51857 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51861 - "OPTIONS /api/ai/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51862 - "POST /api/ai/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51874 - "POST /api/upload/csv HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51874 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51880 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51882 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51883 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51874 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51882 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51885 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51880 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51880 - "GET /api/transactions?type=&search= HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51880 - "GET /api/transactions?type=&search= HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51880 - "GET /api/transactions/?type=&search= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51880 - "GET /api/transactions/?type=&search= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51880 - "GET /api/transactions HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51880 - "GET /api/transactions HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51887 - "GET /api/transactions/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51887 - "GET /api/transactions/ HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51887 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51880 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51887 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51880 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51887 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51891 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51887 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51893 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51893 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51893 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51880 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51893 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51887 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51887 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51893 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51880 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51893 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51887 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51893 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51887 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51880 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51880 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51935 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51936 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51935 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51936 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51933 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51936 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51936 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51933 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51936 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51935 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51935 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51936 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51933 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51933 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51939 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:51939 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52026 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52026 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52056 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52056 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52056 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52058 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52056 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52058 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52056 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52060 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52056 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52060 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52058 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52058 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52058 - "POST /api/ai/chat HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52134 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52135 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52134 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52135 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52133 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52133 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52133 - "OPTIONS /api/ai/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52135 - "POST /api/ai/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52254 - "OPTIONS /api/ai/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52254 - "POST /api/ai/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52256 - "GET /api/transactions?type=&search= HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52256 - "GET /api/transactions?type=&search= HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52256 - "GET /api/transactions/?type=&search= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52256 - "GET /api/transactions/?type=&search= HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52256 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52262 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52263 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52259 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52265 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52256 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52267 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52263 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52263 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52267 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52263 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52256 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52256 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52256 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52267 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52263 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52267 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52263 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52263 - "GET /api/transactions?type=&search= HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52263 - "GET /api/transactions?type=&search= HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52267 - "GET /api/transactions/?type=&search= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52267 - "GET /api/transactions/?type=&search= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52256 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52256 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52265 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52263 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52259 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52262 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52256 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52263 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52265 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52267 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52303 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52304 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52303 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52304 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52301 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52301 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52341 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52342 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52341 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52342 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52340 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52340 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52344 - "GET /api/transactions?type=&search= HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52344 - "GET /api/transactions?type=&search= HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52351 - "GET /api/transactions/?type=&search= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52344 - "GET /api/transactions/?type=&search= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52353 - "GET /api/transactions HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52353 - "GET /api/transactions HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52353 - "GET /api/transactions/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52353 - "GET /api/transactions/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52353 - "GET /api/transactions?type=&search= HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52353 - "GET /api/transactions?type=&search= HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52355 - "GET /api/transactions/?type=&search= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52355 - "GET /api/transactions/?type=&search= HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52362 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52367 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52366 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52364 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52362 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52369 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52367 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52366 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52371 - "GET /api/transactions?type=&search= HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52371 - "GET /api/transactions?type=&search= HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52373 - "GET /api/transactions/?type=&search= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52373 - "GET /api/transactions/?type=&search= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52373 - "GET /api/transactions HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52373 - "GET /api/transactions HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52371 - "GET /api/transactions/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52371 - "GET /api/transactions/ HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52371 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52373 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52371 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52373 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52371 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52376 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52371 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52376 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52371 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52371 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52373 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52371 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52376 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52371 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52376 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52373 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52371 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52376 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52373 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52380 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+/Users/veershah/Desktop/Ideas/Hackthon/ArthaView/backend/routers/analytics.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df['date'] = pd.to_datetime(df['date'])
+INFO:     127.0.0.1:52373 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52380 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52371 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52376 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52382 - "OPTIONS /api/transactions/all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52382 - "DELETE /api/transactions/all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52566 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52568 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52569 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52571 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52566 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52569 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52571 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52568 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52574 - "POST /api/upload/csv HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52575 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52581 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52575 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52581 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52574 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52574 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52583 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52594 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52595 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52592 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52597 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52583 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52594 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52595 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52719 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52718 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52719 - "GET /api/analytics/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52718 - "GET /api/analytics/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52717 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52718 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52721 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52719 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52725 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52718 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52721 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52719 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52727 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52717 - "GET /api/ai/quick-insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52717 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52727 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52717 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52727 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52727 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52721 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52717 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52719 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52717 - "GET /api/analytics/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52719 - "GET /api/analytics/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52727 - "GET /api/analytics/health-score HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52721 - "GET /api/analytics/trend HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9418]
+INFO:     Stopping reloader process [9355]

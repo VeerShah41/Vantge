@@ -1,0 +1,1282 @@
+[
+  {
+    "date": "2025-09-02",
+    "description": "Product Sales January",
+    "amount": 47437.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856240786411"
+  },
+  {
+    "date": "2025-09-04",
+    "description": "Staff Salaries",
+    "amount": 32237.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856240729748"
+  },
+  {
+    "date": "2025-09-04",
+    "description": "Raw Material Purchase",
+    "amount": 15646.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856240461858"
+  },
+  {
+    "date": "2025-09-05",
+    "description": "Product Sales January",
+    "amount": 59197.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856240172970"
+  },
+  {
+    "date": "2025-09-06",
+    "description": "Office Rent",
+    "amount": 13042.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856240410005"
+  },
+  {
+    "date": "2025-09-07",
+    "description": "Utility Bills",
+    "amount": 3487.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856240445790"
+  },
+  {
+    "date": "2025-09-10",
+    "description": "Office Rent",
+    "amount": 11377.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856240571216"
+  },
+  {
+    "date": "2025-09-10",
+    "description": "Office Rent",
+    "amount": 13179.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856240790109"
+  },
+  {
+    "date": "2025-09-10",
+    "description": "Utility Bills",
+    "amount": 3501.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856240729906"
+  },
+  {
+    "date": "2025-09-10",
+    "description": "Raw Material Purchase",
+    "amount": 12174.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856240376193"
+  },
+  {
+    "date": "2025-09-11",
+    "description": "Office Rent",
+    "amount": 11685.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856240227757"
+  },
+  {
+    "date": "2025-09-11",
+    "description": "Raw Material Purchase - PRICE SPIKE",
+    "amount": 34790.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856240200493"
+  },
+  {
+    "date": "2025-09-12",
+    "description": "Staff Salaries",
+    "amount": 30077.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856240069861"
+  },
+  {
+    "date": "2025-09-12",
+    "description": "Office Rent",
+    "amount": 12359.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856240428132"
+  },
+  {
+    "date": "2025-09-12",
+    "description": "Office Rent",
+    "amount": 13359.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856240808987"
+  },
+  {
+    "date": "2025-09-13",
+    "description": "Staff Salaries",
+    "amount": 27783.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856240720494"
+  },
+  {
+    "date": "2025-09-14",
+    "description": "Emergency Marketing Campaign",
+    "amount": 14770.0,
+    "type": "expense",
+    "category": "Marketing",
+    "id": "1774543856240177598"
+  },
+  {
+    "date": "2025-09-17",
+    "description": "Product Sales February",
+    "amount": 45527.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856240515814"
+  },
+  {
+    "date": "2025-09-17",
+    "description": "Office Rent",
+    "amount": 11454.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856240528408"
+  },
+  {
+    "date": "2025-09-19",
+    "description": "Emergency Marketing Campaign",
+    "amount": 14409.0,
+    "type": "expense",
+    "category": "Marketing",
+    "id": "1774543856240686159"
+  },
+  {
+    "date": "2025-09-24",
+    "description": "Staff Salaries",
+    "amount": 26651.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856240623022"
+  },
+  {
+    "date": "2025-09-25",
+    "description": "Utility Bills - Summer Surge",
+    "amount": 12525.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856240677080"
+  },
+  {
+    "date": "2025-09-26",
+    "description": "Product Sales February",
+    "amount": 51561.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856240213208"
+  },
+  {
+    "date": "2025-09-27",
+    "description": "Office Rent",
+    "amount": 11510.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856240481696"
+  },
+  {
+    "date": "2025-09-30",
+    "description": "Emergency Marketing Campaign",
+    "amount": 13758.0,
+    "type": "expense",
+    "category": "Marketing",
+    "id": "1774543856240666657"
+  },
+  {
+    "date": "2025-09-30",
+    "description": "Utility Bills",
+    "amount": 4167.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856240666206"
+  },
+  {
+    "date": "2025-09-30",
+    "description": "Equipment Breakdown Repair",
+    "amount": 25146.0,
+    "type": "expense",
+    "category": "Equipment",
+    "id": "1774543856240260149"
+  },
+  {
+    "date": "2025-10-03",
+    "description": "Office Rent",
+    "amount": 10615.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856240398207"
+  },
+  {
+    "date": "2025-10-04",
+    "description": "Office Rent",
+    "amount": 13185.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856240653558"
+  },
+  {
+    "date": "2025-10-06",
+    "description": "Product Sales January",
+    "amount": 47531.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856240245663"
+  },
+  {
+    "date": "2025-10-07",
+    "description": "Emergency Marketing Campaign",
+    "amount": 13296.0,
+    "type": "expense",
+    "category": "Marketing",
+    "id": "1774543856240656375"
+  },
+  {
+    "date": "2025-10-07",
+    "description": "Staff Salaries",
+    "amount": 30389.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856240506731"
+  },
+  {
+    "date": "2025-10-11",
+    "description": "Product Sales February",
+    "amount": 44431.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856240578650"
+  },
+  {
+    "date": "2025-10-14",
+    "description": "Consultant Fee - Unplanned",
+    "amount": 17376.0,
+    "type": "expense",
+    "category": "Services",
+    "id": "1774543856240117763"
+  },
+  {
+    "date": "2025-10-18",
+    "description": "Product Sales March - Low Season",
+    "amount": 33108.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856240644032"
+  },
+  {
+    "date": "2025-10-18",
+    "description": "Utility Bills",
+    "amount": 3637.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856240670432"
+  },
+  {
+    "date": "2025-10-18",
+    "description": "Office Rent",
+    "amount": 12970.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856240454413"
+  },
+  {
+    "date": "2025-10-23",
+    "description": "Product Sales January",
+    "amount": 54915.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856240875687"
+  },
+  {
+    "date": "2025-10-24",
+    "description": "Staff Salaries",
+    "amount": 25541.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856240118563"
+  },
+  {
+    "date": "2025-10-28",
+    "description": "Product Sales March - Low Season",
+    "amount": 29959.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856240935492"
+  },
+  {
+    "date": "2025-10-28",
+    "description": "Staff Salaries",
+    "amount": 26858.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856240445948"
+  },
+  {
+    "date": "2025-10-30",
+    "description": "Product Sales January",
+    "amount": 51676.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856240132731"
+  },
+  {
+    "date": "2025-10-30",
+    "description": "Staff Salaries",
+    "amount": 32086.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856240540638"
+  },
+  {
+    "date": "2025-11-02",
+    "description": "Staff Salaries",
+    "amount": 30251.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856240161705"
+  },
+  {
+    "date": "2025-11-03",
+    "description": "Product Sales March - Low Season",
+    "amount": 30086.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856240220707"
+  },
+  {
+    "date": "2025-11-03",
+    "description": "Raw Material Purchase - PRICE SPIKE",
+    "amount": 34650.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856240084700"
+  },
+  {
+    "date": "2025-11-04",
+    "description": "Utility Bills",
+    "amount": 3592.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241267232"
+  },
+  {
+    "date": "2025-11-04",
+    "description": "Utility Bills",
+    "amount": 4725.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241842497"
+  },
+  {
+    "date": "2025-11-05",
+    "description": "Office Rent",
+    "amount": 13163.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241608416"
+  },
+  {
+    "date": "2025-11-06",
+    "description": "Utility Bills",
+    "amount": 4348.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241559267"
+  },
+  {
+    "date": "2025-11-09",
+    "description": "Utility Bills",
+    "amount": 3636.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241178270"
+  },
+  {
+    "date": "2025-11-09",
+    "description": "Office Rent",
+    "amount": 13779.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241937457"
+  },
+  {
+    "date": "2025-11-10",
+    "description": "Product Sales February",
+    "amount": 44208.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241451527"
+  },
+  {
+    "date": "2025-11-11",
+    "description": "Product Sales March - Low Season",
+    "amount": 33708.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241375158"
+  },
+  {
+    "date": "2025-11-11",
+    "description": "Utility Bills",
+    "amount": 3752.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241564162"
+  },
+  {
+    "date": "2025-11-12",
+    "description": "Utility Bills",
+    "amount": 4597.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241685235"
+  },
+  {
+    "date": "2025-11-14",
+    "description": "Equipment Breakdown Repair",
+    "amount": 21761.0,
+    "type": "expense",
+    "category": "Equipment",
+    "id": "1774543856241955395"
+  },
+  {
+    "date": "2025-11-17",
+    "description": "Emergency Marketing Campaign",
+    "amount": 13526.0,
+    "type": "expense",
+    "category": "Marketing",
+    "id": "1774543856241600122"
+  },
+  {
+    "date": "2025-11-17",
+    "description": "Raw Material Purchase - PRICE SPIKE",
+    "amount": 36034.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856241676438"
+  },
+  {
+    "date": "2025-11-17",
+    "description": "Product Sales January",
+    "amount": 57696.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241520930"
+  },
+  {
+    "date": "2025-11-17",
+    "description": "Utility Bills",
+    "amount": 3822.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241998154"
+  },
+  {
+    "date": "2025-11-19",
+    "description": "Office Rent",
+    "amount": 12187.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241622933"
+  },
+  {
+    "date": "2025-11-19",
+    "description": "Office Rent",
+    "amount": 11341.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241452165"
+  },
+  {
+    "date": "2025-11-20",
+    "description": "Raw Material Purchase",
+    "amount": 16767.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856241386522"
+  },
+  {
+    "date": "2025-11-22",
+    "description": "Staff Salaries",
+    "amount": 30351.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856241668089"
+  },
+  {
+    "date": "2025-11-25",
+    "description": "Staff Salaries",
+    "amount": 28815.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856241808633"
+  },
+  {
+    "date": "2025-11-26",
+    "description": "Office Rent",
+    "amount": 11379.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241499607"
+  },
+  {
+    "date": "2025-11-28",
+    "description": "Staff Salaries",
+    "amount": 34409.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856241234681"
+  },
+  {
+    "date": "2025-11-29",
+    "description": "Utility Bills - Summer Surge",
+    "amount": 11481.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241952007"
+  },
+  {
+    "date": "2025-11-29",
+    "description": "Utility Bills - Summer Surge",
+    "amount": 12877.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241892922"
+  },
+  {
+    "date": "2025-11-29",
+    "description": "Product Sales March - Low Season",
+    "amount": 27894.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241450940"
+  },
+  {
+    "date": "2025-12-01",
+    "description": "Staff Salaries",
+    "amount": 27713.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856241655666"
+  },
+  {
+    "date": "2025-12-04",
+    "description": "Emergency Marketing Campaign",
+    "amount": 13998.0,
+    "type": "expense",
+    "category": "Marketing",
+    "id": "1774543856241102823"
+  },
+  {
+    "date": "2025-12-04",
+    "description": "Product Sales February",
+    "amount": 40850.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241301114"
+  },
+  {
+    "date": "2025-12-05",
+    "description": "Consultant Fee - Unplanned",
+    "amount": 16716.0,
+    "type": "expense",
+    "category": "Services",
+    "id": "1774543856241187285"
+  },
+  {
+    "date": "2025-12-06",
+    "description": "Raw Material Purchase",
+    "amount": 13448.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856241481967"
+  },
+  {
+    "date": "2025-12-07",
+    "description": "Product Sales March - Low Season",
+    "amount": 30629.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241676106"
+  },
+  {
+    "date": "2025-12-07",
+    "description": "Product Sales March - Low Season",
+    "amount": 26533.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241043072"
+  },
+  {
+    "date": "2025-12-08",
+    "description": "Office Rent",
+    "amount": 11979.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241261364"
+  },
+  {
+    "date": "2025-12-09",
+    "description": "Utility Bills",
+    "amount": 4293.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241349436"
+  },
+  {
+    "date": "2025-12-10",
+    "description": "Utility Bills",
+    "amount": 4435.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241727888"
+  },
+  {
+    "date": "2025-12-11",
+    "description": "Staff Salaries",
+    "amount": 31070.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856241112534"
+  },
+  {
+    "date": "2025-12-12",
+    "description": "Office Rent",
+    "amount": 10262.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241828590"
+  },
+  {
+    "date": "2025-12-13",
+    "description": "Equipment Breakdown Repair",
+    "amount": 19526.0,
+    "type": "expense",
+    "category": "Equipment",
+    "id": "1774543856241604976"
+  },
+  {
+    "date": "2025-12-16",
+    "description": "Utility Bills",
+    "amount": 4269.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241779460"
+  },
+  {
+    "date": "2025-12-17",
+    "description": "Raw Material Purchase",
+    "amount": 13470.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856241544162"
+  },
+  {
+    "date": "2025-12-20",
+    "description": "Office Rent",
+    "amount": 11653.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241632718"
+  },
+  {
+    "date": "2025-12-20",
+    "description": "Office Rent",
+    "amount": 12156.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241213710"
+  },
+  {
+    "date": "2025-12-23",
+    "description": "Utility Bills",
+    "amount": 4408.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241790884"
+  },
+  {
+    "date": "2025-12-23",
+    "description": "Utility Bills",
+    "amount": 3873.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241926484"
+  },
+  {
+    "date": "2025-12-23",
+    "description": "Consultant Fee - Unplanned",
+    "amount": 19769.0,
+    "type": "expense",
+    "category": "Services",
+    "id": "1774543856241370270"
+  },
+  {
+    "date": "2025-12-24",
+    "description": "Office Rent",
+    "amount": 10670.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241523728"
+  },
+  {
+    "date": "2025-12-24",
+    "description": "Raw Material Purchase - PRICE SPIKE",
+    "amount": 42065.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856241154698"
+  },
+  {
+    "date": "2025-12-29",
+    "description": "Office Rent",
+    "amount": 13604.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241132202"
+  },
+  {
+    "date": "2026-01-03",
+    "description": "Office Rent",
+    "amount": 11043.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241244288"
+  },
+  {
+    "date": "2026-01-03",
+    "description": "Product Sales March - Low Season",
+    "amount": 32033.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241250829"
+  },
+  {
+    "date": "2026-01-05",
+    "description": "Utility Bills",
+    "amount": 3741.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241411301"
+  },
+  {
+    "date": "2026-01-07",
+    "description": "Product Sales March - Low Season",
+    "amount": 33219.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241871105"
+  },
+  {
+    "date": "2026-01-08",
+    "description": "Utility Bills",
+    "amount": 3784.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241804037"
+  },
+  {
+    "date": "2026-01-10",
+    "description": "Staff Salaries",
+    "amount": 33283.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856241231612"
+  },
+  {
+    "date": "2026-01-10",
+    "description": "Utility Bills",
+    "amount": 3437.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241801954"
+  },
+  {
+    "date": "2026-01-12",
+    "description": "Utility Bills",
+    "amount": 4667.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241599102"
+  },
+  {
+    "date": "2026-01-12",
+    "description": "Product Sales February",
+    "amount": 54708.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241952854"
+  },
+  {
+    "date": "2026-01-13",
+    "description": "Office Rent",
+    "amount": 10672.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241648781"
+  },
+  {
+    "date": "2026-01-14",
+    "description": "Raw Material Purchase - PRICE SPIKE",
+    "amount": 41751.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856241474040"
+  },
+  {
+    "date": "2026-01-14",
+    "description": "Consultant Fee - Unplanned",
+    "amount": 18593.0,
+    "type": "expense",
+    "category": "Services",
+    "id": "1774543856241315210"
+  },
+  {
+    "date": "2026-01-15",
+    "description": "Office Rent",
+    "amount": 12295.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241578353"
+  },
+  {
+    "date": "2026-01-16",
+    "description": "Office Rent",
+    "amount": 12477.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241190194"
+  },
+  {
+    "date": "2026-01-16",
+    "description": "Consultant Fee - Unplanned",
+    "amount": 15931.0,
+    "type": "expense",
+    "category": "Services",
+    "id": "1774543856241229216"
+  },
+  {
+    "date": "2026-01-20",
+    "description": "Product Sales March - Low Season",
+    "amount": 29548.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241426566"
+  },
+  {
+    "date": "2026-01-20",
+    "description": "Utility Bills",
+    "amount": 4148.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241895307"
+  },
+  {
+    "date": "2026-01-21",
+    "description": "Office Rent",
+    "amount": 10381.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241930706"
+  },
+  {
+    "date": "2026-01-24",
+    "description": "Raw Material Purchase",
+    "amount": 17622.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856241165589"
+  },
+  {
+    "date": "2026-01-26",
+    "description": "Equipment Breakdown Repair",
+    "amount": 21381.0,
+    "type": "expense",
+    "category": "Equipment",
+    "id": "1774543856241454839"
+  },
+  {
+    "date": "2026-01-26",
+    "description": "Product Sales February",
+    "amount": 49843.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241543475"
+  },
+  {
+    "date": "2026-01-27",
+    "description": "Utility Bills - Summer Surge",
+    "amount": 10635.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241610973"
+  },
+  {
+    "date": "2026-01-31",
+    "description": "Utility Bills - Summer Surge",
+    "amount": 12873.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241821108"
+  },
+  {
+    "date": "2026-01-31",
+    "description": "Raw Material Purchase",
+    "amount": 12979.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856241044531"
+  },
+  {
+    "date": "2026-02-01",
+    "description": "Office Rent",
+    "amount": 11130.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241503409"
+  },
+  {
+    "date": "2026-02-01",
+    "description": "Product Sales March - Low Season",
+    "amount": 29825.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241453886"
+  },
+  {
+    "date": "2026-02-02",
+    "description": "Product Sales January",
+    "amount": 46667.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241505135"
+  },
+  {
+    "date": "2026-02-05",
+    "description": "Staff Salaries",
+    "amount": 33933.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856241645547"
+  },
+  {
+    "date": "2026-02-10",
+    "description": "Utility Bills - Summer Surge",
+    "amount": 10819.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241994498"
+  },
+  {
+    "date": "2026-02-11",
+    "description": "Raw Material Purchase - PRICE SPIKE",
+    "amount": 43145.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856241690541"
+  },
+  {
+    "date": "2026-02-14",
+    "description": "Office Rent",
+    "amount": 12328.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241993788"
+  },
+  {
+    "date": "2026-02-14",
+    "description": "Consultant Fee - Unplanned",
+    "amount": 16584.0,
+    "type": "expense",
+    "category": "Services",
+    "id": "1774543856241820320"
+  },
+  {
+    "date": "2026-02-15",
+    "description": "Utility Bills - Summer Surge",
+    "amount": 10965.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241499559"
+  },
+  {
+    "date": "2026-02-16",
+    "description": "Product Sales January",
+    "amount": 58646.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241100826"
+  },
+  {
+    "date": "2026-02-16",
+    "description": "Office Rent",
+    "amount": 12993.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241057366"
+  },
+  {
+    "date": "2026-02-24",
+    "description": "Office Rent",
+    "amount": 12816.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241960985"
+  },
+  {
+    "date": "2026-02-24",
+    "description": "Raw Material Purchase",
+    "amount": 18003.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856241662693"
+  },
+  {
+    "date": "2026-02-25",
+    "description": "Product Sales January",
+    "amount": 49068.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241961396"
+  },
+  {
+    "date": "2026-02-25",
+    "description": "Staff Salaries",
+    "amount": 30411.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856241910430"
+  },
+  {
+    "date": "2026-02-25",
+    "description": "Staff Salaries",
+    "amount": 27683.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856241732516"
+  },
+  {
+    "date": "2026-03-01",
+    "description": "Raw Material Purchase - PRICE SPIKE",
+    "amount": 37836.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856241914834"
+  },
+  {
+    "date": "2026-03-04",
+    "description": "Staff Salaries",
+    "amount": 26021.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856241989301"
+  },
+  {
+    "date": "2026-03-04",
+    "description": "Utility Bills",
+    "amount": 4116.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241289529"
+  },
+  {
+    "date": "2026-03-05",
+    "description": "Product Sales January",
+    "amount": 59490.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241565664"
+  },
+  {
+    "date": "2026-03-05",
+    "description": "Staff Salaries",
+    "amount": 28021.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856241991289"
+  },
+  {
+    "date": "2026-03-08",
+    "description": "Utility Bills - Summer Surge",
+    "amount": 12246.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241809745"
+  },
+  {
+    "date": "2026-03-09",
+    "description": "Consultant Fee - Unplanned",
+    "amount": 16634.0,
+    "type": "expense",
+    "category": "Services",
+    "id": "1774543856241367579"
+  },
+  {
+    "date": "2026-03-11",
+    "description": "Utility Bills",
+    "amount": 3730.0,
+    "type": "expense",
+    "category": "Utilities",
+    "id": "1774543856241796625"
+  },
+  {
+    "date": "2026-03-13",
+    "description": "Staff Salaries",
+    "amount": 30799.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856241590974"
+  },
+  {
+    "date": "2026-03-14",
+    "description": "Office Rent",
+    "amount": 11268.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241624611"
+  },
+  {
+    "date": "2026-03-14",
+    "description": "Product Sales January",
+    "amount": 53865.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241397915"
+  },
+  {
+    "date": "2026-03-15",
+    "description": "Emergency Marketing Campaign",
+    "amount": 13366.0,
+    "type": "expense",
+    "category": "Marketing",
+    "id": "1774543856241958637"
+  },
+  {
+    "date": "2026-03-15",
+    "description": "Staff Salaries",
+    "amount": 26887.0,
+    "type": "expense",
+    "category": "Salaries",
+    "id": "1774543856241197740"
+  },
+  {
+    "date": "2026-03-15",
+    "description": "Raw Material Purchase",
+    "amount": 13438.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856241272439"
+  },
+  {
+    "date": "2026-03-16",
+    "description": "Equipment Breakdown Repair",
+    "amount": 23487.0,
+    "type": "expense",
+    "category": "Equipment",
+    "id": "1774543856241100006"
+  },
+  {
+    "date": "2026-03-16",
+    "description": "Raw Material Purchase",
+    "amount": 13219.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856241249144"
+  },
+  {
+    "date": "2026-03-16",
+    "description": "Product Sales March - Low Season",
+    "amount": 26910.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241227736"
+  },
+  {
+    "date": "2026-03-18",
+    "description": "Raw Material Purchase",
+    "amount": 13459.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856241492489"
+  },
+  {
+    "date": "2026-03-19",
+    "description": "Raw Material Purchase - PRICE SPIKE",
+    "amount": 35572.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856241206098"
+  },
+  {
+    "date": "2026-03-19",
+    "description": "Raw Material Purchase",
+    "amount": 17399.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856241793255"
+  },
+  {
+    "date": "2026-03-19",
+    "description": "Product Sales March - Low Season",
+    "amount": 32669.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241740775"
+  },
+  {
+    "date": "2026-03-20",
+    "description": "Raw Material Purchase",
+    "amount": 15995.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856241593947"
+  },
+  {
+    "date": "2026-03-21",
+    "description": "Office Rent",
+    "amount": 12571.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241000672"
+  },
+  {
+    "date": "2026-03-22",
+    "description": "Office Rent",
+    "amount": 11694.0,
+    "type": "expense",
+    "category": "Rent",
+    "id": "1774543856241569917"
+  },
+  {
+    "date": "2026-03-24",
+    "description": "Product Sales March - Low Season",
+    "amount": 28410.0,
+    "type": "income",
+    "category": "Sales",
+    "id": "1774543856241878606"
+  },
+  {
+    "date": "2026-03-25",
+    "description": "Raw Material Purchase - PRICE SPIKE",
+    "amount": 38889.0,
+    "type": "expense",
+    "category": "Inventory",
+    "id": "1774543856241733472"
+  }
+]
