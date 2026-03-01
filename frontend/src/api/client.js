@@ -55,3 +55,4 @@ export const uploadPDF = (file) => {
 };
 
 export default api;
+
