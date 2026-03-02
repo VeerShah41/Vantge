@@ -66,3 +66,4 @@ Vantge is a modern, AI-powered financial dashboard designed for small and medium
 ## License
 
 Copyright © 2026 Vantge. All rights reserved.
+
