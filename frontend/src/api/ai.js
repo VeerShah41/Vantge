@@ -11,4 +11,3 @@ export const chatWithAI = (message, history = []) =>
 
 export const getQuickInsights = () =>
   api.get('/ai/quick-insights').then(r => r.data);
-
