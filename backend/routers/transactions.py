@@ -102,4 +102,3 @@ def remove_transaction(id: str):
         if isinstance(e, HTTPException):
             raise e
         return {"success": False, "message": "Failed to delete transaction", "error": str(e)}
-
