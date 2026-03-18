@@ -97,4 +97,3 @@ def quick_insights():
         return {"success": True, "insights": insights}
     except Exception as e:
         return {"success": False, "message": str(e)}
-
