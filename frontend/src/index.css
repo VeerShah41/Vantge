@@ -452,4 +452,3 @@ body {
 .toast-success { background: rgba(34, 211, 165, 0.15); border: 1px solid rgba(34, 211, 165, 0.3); color: var(--accent-green); }
 .toast-error { background: rgba(247, 92, 126, 0.15); border: 1px solid rgba(247, 92, 126, 0.3); color: var(--accent-red); }
 .toast-info { background: rgba(124, 111, 247, 0.15); border: 1px solid rgba(124, 111, 247, 0.3); color: var(--accent-primary); }
-
