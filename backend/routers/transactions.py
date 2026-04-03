@@ -28,7 +28,7 @@ def get_all_transactions(
     to_date: Optional[str] = Query(None, alias="to"),
     search: Optional[str] = None,
     page: Optional[int] = 1,
-    limit: Optional[int] = 20
+    limit: Optional[int] = 10000
 ):
     try:
         txns = list(get_transactions())  # Copy to avoid mutating shared in-memory list
@@ -48,7 +48,7 @@ def get_all_transactions(
         total = len(txns)
 
         p = page or 1
-        l = limit or 20
+        l = limit or 10000
         txns = txns[(p - 1) * l : p * l]
 
         return {"success": True, "data": txns, "total": total, "page": p}
@@ -61,7 +61,7 @@ def create_transaction(item: TransactionCreate):
     try:
         if item.type not in ["income", "expense"]:
             return {"success": False, "message": "type must be income or expense"}
-        if item.amount <= 0:
+        if item.amount < 0:
             return {"success": False, "message": "amount must be a positive number"}
 
         txn = add_transaction(item.model_dump())
