@@ -68,11 +68,17 @@ export default function Upload() {
     setUploading(true); setResult(null); setError(null);
     try {
       const res = activeTab === 'csv' ? await uploadCSV(file) : await uploadPDF(file);
+      if (!res.success) {
+        const msg = res.message || 'Upload failed. Please check your file format.';
+        setError(msg);
+        toast({ message: msg, type: 'error' });
+        return;
+      }
       setResult(res);
       toast({ message: `✅ ${res.message}`, type: 'success' });
       setFile(null);
     } catch (err) {
-      const msg = err.response?.data?.message || 'Upload failed. Please check your file format.';
+      const msg = err.response?.data?.detail || err.response?.data?.message || 'Upload failed. Please check your file format.';
       setError(msg);
       toast({ message: msg, type: 'error' });
     } finally {

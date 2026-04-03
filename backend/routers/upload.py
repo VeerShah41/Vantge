@@ -103,36 +103,49 @@ def extract_transactions_from_text(text: str):
 async def upload_csv(file: UploadFile = File(...)):
     if not file:
         raise HTTPException(status_code=400, detail="No file uploaded")
-        
-    contents = await file.read()
-    decoded = contents.decode('utf-8')
-    reader = csv.DictReader(io.StringIO(decoded))
-    
-    results = []
-    for row in reader:
-        date = row.get("Date", row.get("date", row.get("DATE", "")))
-        desc = row.get("Description", row.get("description", row.get("Narration", row.get("narration", ""))))
-        amt_raw = row.get("Amount", row.get("amount", row.get("Credit", row.get("Debit", 0))))
-        amount = abs(parse_amount(amt_raw))
-        
-        t_type = "expense"
-        if row.get("Type") or row.get("type"):
-            t_type = str(row.get("Type", row.get("type", ""))).lower()
-        elif row.get("Credit"):
-            t_type = "income"
-            
-        category = row.get("Category", row.get("category", "")) or guess_category(desc)
-        if date and desc and amount:
-            results.append({
-                "date": date,
-                "description": desc,
-                "amount": amount,
-                "type": t_type,
-                "category": category
-            })
-            
-    added = add_transactions(results)
-    return {"success": True, "message": f"{len(added)} transactions imported", "data": added}
+    try:
+        contents = await file.read()
+        # Try UTF-8 with BOM (Excel exports), then UTF-8, then Latin-1
+        for enc in ('utf-8-sig', 'utf-8', 'latin-1'):
+            try:
+                decoded = contents.decode(enc)
+                break
+            except UnicodeDecodeError:
+                continue
+        else:
+            return {"success": False, "message": "Could not decode file. Please save as UTF-8 CSV and try again."}
+
+        reader = csv.DictReader(io.StringIO(decoded))
+        results = []
+        for row in reader:
+            date = row.get("Date", row.get("date", row.get("DATE", "")))
+            desc = row.get("Description", row.get("description", row.get("Narration", row.get("narration", ""))))
+            amt_raw = row.get("Amount", row.get("amount", row.get("Credit", row.get("Debit", 0))))
+            amount = abs(parse_amount(amt_raw))
+
+            t_type = "expense"
+            if row.get("Type") or row.get("type"):
+                t_type = str(row.get("Type", row.get("type", ""))).lower()
+            elif row.get("Credit"):
+                t_type = "income"
+
+            category = row.get("Category", row.get("category", "")) or guess_category(desc)
+            if date and desc and amount:
+                results.append({
+                    "date": date,
+                    "description": desc,
+                    "amount": amount,
+                    "type": t_type,
+                    "category": category
+                })
+
+        if not results:
+            return {"success": False, "message": "No valid rows found. Ensure your CSV has Date, Description, and Amount columns."}
+
+        added = add_transactions(results)
+        return {"success": True, "message": f"{len(added)} transactions imported", "data": added}
+    except Exception as e:
+        return {"success": False, "message": f"Failed to parse CSV: {str(e)}"}
 
 @router.post("/pdf")
 async def upload_pdf(file: UploadFile = File(...)):

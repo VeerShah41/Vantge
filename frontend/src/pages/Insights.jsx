@@ -32,9 +32,14 @@ export default function Insights() {
   useEffect(() => {
     Promise.all([getQuickInsights(), getAnomalies(), getRecommendations()])
       .then(([qi, an, rec]) => {
-        setQuickInsights(qi.insights);
-        setAnomalies(an.data);
-        setRecommendations(rec.data);
+        setQuickInsights(qi.insights || '');
+        setAnomalies(an.data || []);
+        setRecommendations(rec.data || []);
+      })
+      .catch(() => {
+        setQuickInsights('');
+        setAnomalies([]);
+        setRecommendations([]);
       })
       .finally(() => setInsightsLoading(false));
   }, []);
@@ -79,13 +84,17 @@ export default function Insights() {
             <div style={{ display: 'flex', gap: 10, alignItems: 'center', color: 'var(--text-muted)', fontSize: 14, padding: '10px 0' }}>
               <div className="spinner" style={{ width: 22, height: 22 }} /> Analyzing your financial data...
             </div>
-          ) : (
+          ) : quickInsights ? (
             <div className="quick-insights-grid">
               {quickInsights.split('\n').filter(Boolean).map((line, i) => (
                 <div key={i} className="insight-line banner-insight">
                   {line}
                 </div>
               ))}
+            </div>
+          ) : (
+            <div style={{ color: 'var(--text-muted)', fontSize: 13, padding: '8px 0' }}>
+              ⚠️ AI insights unavailable — check that GROQ_API_KEY is set in your environment.
             </div>
           )}
         </div>
