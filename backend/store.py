@@ -4,8 +4,8 @@ import random
 from datetime import datetime
 
 # Build path to the JSON file
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DB_FILE = os.path.join(BASE_DIR, "src", "data", "transactions.json")
+# Use /tmp for writable storage on Render (ephemeral but works within session)
+DB_FILE = os.path.join("/tmp", "vantge_transactions.json")
 
 # Make sure directory exists
 os.makedirs(os.path.dirname(DB_FILE), exist_ok=True)
