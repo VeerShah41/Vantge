@@ -4,4 +4,7 @@ node_modules/
 dist/
 build/
 .DS_Store
+.!*!.DS_Store
+*.DS_Store
+.nvmrc
 /generate_commits.sh
